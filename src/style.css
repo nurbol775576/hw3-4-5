@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+    
+}
+button:hover{
+    
+    background-color: #4CAF50;
+    color: yellow;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 150px auto;
+}
+
+.header {
+    background-color: #24273d;
+    padding: 10px;
+}
+
+.header button {
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #a4a8d6;
+    color: #a4a8d6;
+    margin-right: 5px;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+}
+.header button:hover{
+    background-color: #4CAF50;
+    color: yellow;
+}
+
+.header input {
+    width: calc(100% - 45px);
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #a4a8d6;
+}
+
+.todolist-menu {
+    background-color: #24273d;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.todolist-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a4a8d6;
+    padding: 10px 0;
+    border-bottom: 1px solid #a4a8d6;
+}
+
+.todolist-menu-item-left>button {
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #a4a8d6;
+    color: #a4a8d6;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+}
+.todolist-menu-item-left>button:hover{
+    background-color: #4CAF50;
+    color: yellow;
+}
+.todolist-menu-item-left {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    width: 45%;
+}
+
+.footer {
+    background-color: #24273d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #a4a8d6;
+    align-items: center;
+}
+
+.footer button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+}
+.footer button:hover{
+    color: #4CAF50;
+    color: yellow;
+}
+
+.footer-center{
+    display: flex;
+    column-gap: 5px;
+}
+
+.active{
+    color: #4371d3 !important;
+}
+.todolist-menu-item-important{
+    background-color: #29488a;
+}
+.todolist-btn{
+    padding:  5px 10px;
+    background-color: transparent;
+    border: 1px solid #a4a8d6;
+}
+.correct {
+    color: yellow;
+}
+.important, 
+.restore{
+    color: green;
+}
+.delete,
+.delete-finaly{
+    color: red;
+}
+.todolist-menu-item-left>p{
+    word-wrap: break-word;
+    width: 70%;
+}
+.cart-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cart-btns>button{
+    background-color: transparent;
+    border: none;
+}
+.cart-btns>button:first-child{
+    color: red;
+}
+.cart-btns>button:last-child{
+    color: green;
+}
+.cart-btns>button:hover{
+    color: white;
+    transition: 0.50s;
+}
+input{
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+}
+input:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
